@@ -1,0 +1,62 @@
+/* Reset default margin and padding */
+body {
+    font-family: "Courier New", serif;
+    text-align: center;
+    background-color: #237dbe;
+    margin: 0;
+    padding: 0;
+    color: rgb(8, 22, 66);
+}
+
+#converter {
+    margin: 40px auto; /* Center the converter on the page */
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: beige;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    width: 300px; /* Set a fixed width for the converter */
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    /* color: rgb(8, 22, 66); Blue title color */
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+    /* color: #333; Dark text color */
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #9bcbed;
+}
+
+button {
+    padding: 10px 30px; /* Adjust padding for a more balanced button */
+    background-color: #237dbe;
+    color: beige;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s; /* Add a smooth transition */
+}
+
+button:hover {
+    background-color: #12314e; /* Darker blue on hover */
+}
+
+#result {
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
